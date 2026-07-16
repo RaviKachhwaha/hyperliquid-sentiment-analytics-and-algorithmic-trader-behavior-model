@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPYNB checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# MS Office / Word temporary lock files
+~$*
+.~lock.*
+
+# Raw Data Directory (47.5 MB)
+# Ignored due to GitHub file size limits; downloaded via download_data.py
+data/
+processed/
+
+# Local caches
+st_cache/
+.streamlit/
+
+# Streamlit local configurations
+.streamlit/*.toml
+
+# Environment variables & secrets
+.env
+.env.*
+secrets.toml
+
+# System files
+*.log
+.DS_Store
+Thumbs.db
+
